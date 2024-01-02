@@ -2,4 +2,4 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=javaprojectaws -Dsonar.organization=javaprojectaws -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=37c7ca1a4f2fc56771720ae0440c64ca92 
+      - mvn verify sonar:sonar -Dsonar.projectKey=javaprojectawsaa -Dsonar.organization=javaprojectawsa -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=b2f3517026d0e39110a8fe7e17e9ee1f97023d89 
