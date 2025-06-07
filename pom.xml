@@ -25,6 +25,15 @@
       <version>1.0.0-beta2</version>
     </dependency>
     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+ <build>
+ <plugins>
+ <plugin>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.8.7</version>
@@ -47,13 +56,8 @@
           </configuration>
         </execution>
       </executions>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+ </plugin>
+ </plugins>
+ </build>
 
 </project>
